@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div>
     <p>
-      A collection of my works and interests - computer graphics/imagery, games, web design.
+      A collection of my works and interests - graphics programming, game development, web design.
     </p>
     <h3>projects</h3>
     <ul>
