@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import FaGithub from 'react-icons/lib/fa/github'
+import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: '#247ba0',
+      background: '#191e27',
       marginBottom: '1.45rem',
     }}
   >
@@ -12,7 +14,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.00rem 1.0875rem',
+        padding: '0.85rem 1.0875rem',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -25,6 +27,8 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
+        <a href="https://www.linkedin.com/in/bdt2722"><FaLinkedinSquare style={{ fill: '#0077b5', float: 'right' }}/></a>
+        <a href="https://github.com/modal17"><FaGithub style={{ fill: 'white', float: 'right'}}/></a>
       </h1>
     </div>
   </div>
